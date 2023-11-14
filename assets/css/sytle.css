@@ -42,3 +42,40 @@ body > img {
 img {
   max-height: 250px;
 }
+.content {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  gap: 1rem;
+  font-size: 25px;
+  text-align: left;
+
+  border-radius: 10px;
+  background-color: #ffffff2a;
+  backdrop-filter: blur(3px);
+}
+input {
+  height: 25px;
+  border: none;
+  width: fit-content;
+}
+button {
+  font-size: large;
+  color: white;
+  background-color: rgb(77, 129, 240);
+  border: none;
+  height: 50px;
+  cursor: pointer;
+}
+.resp {
+  background-color: rgb(131, 190, 41);
+  max-width: 500px;
+  margin: 10px auto;
+  color: black;
+  padding: 10px;
+  text-align: left;
+}

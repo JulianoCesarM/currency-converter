@@ -25,7 +25,14 @@
         src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png"
       />
     </a>
-
+    <div class="content">
+      <div>
+        <label for="dolar">Dolar para Real</label>
+        <input type="number" id="valueDolar" name="dolar" step=".01" />
+      </div>
+      <button onclick="currencyConverter()">Converter</button>
+    </div>
+    <p id="resp" class=""></p>
     <script src="/assets/js/index.js"></script>
   </body>
 </html>
